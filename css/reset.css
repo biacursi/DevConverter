@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input, select, button {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    width: 220px;
+    padding: 10px 14px;
+    font-size: 1em;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+
+    transition: ease-in-out 0.2s;
+}
+
+input:focus, select:focus {
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+

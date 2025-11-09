@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$Dev Converter</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>$DevConverter</h1>
+    </header>
+    
+    <main>
+<form action="" id="form">
+    <section class="inputs-container">
+        <div class="form-group">
+            <label for="">valor a ser convertido (R$):</label>
+            <input type="number" 
+            placeholder="R$20,00" 
+            id="value-real" 
+            name="value-real"> 
+        </div>
+
+ <div class="form-group">
+            <label for="">escolha a moeda:</label>
+            <select id="currency">
+                <option value="">Selecione...</option>
+                <option value="dol">Dólar (USD)</option>
+                <option value="eur">Euro (EUR)</option>
+                <option value="lib">Libra Esterlina (GBP)</option>
+                <option value="iene">Iene Japonês (JPY)</option>
+                <option value="yuan">Yuan Chinês (CNY)</option>
+            </select>            
+        </div>        
+
+    </section>
+    <button type="submit" id="convert-button">Converter</button>
+</form>
+<h2 id="result"></h2>
+
+    </main>
+
+    <footer>
+        <span>
+            Feito com 💜 por © Bianca Marcelino Cursi, 2025 - Todos os direitos reservados.        
+        </span>
+    </footer>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
