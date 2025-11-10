@@ -1,10 +1,4 @@
-Claro, Bia! Sem problemas.
-
-Aqui está um README.md ajustado para a versão original do seu código, aquela que usa os valores de conversão fixos (sem API).
-
-(Copie tudo daqui para baixo 👇)
-
-🪙 Conversor de Moedas Estático
+Conversor de Moedas Estático
 Este é um projeto front-end de um conversor de moedas simples, que converte valores de Real (BRL) para 5 moedas estrangeiras. O projeto foi desenvolvido como prática de JavaScript, focando na manipulação do DOM e na lógica de eventos.
 
 Importante: Este projeto utiliza valores de câmbio fixos, definidos diretamente no código JavaScript. As cotações não são atualizadas em tempo real.
